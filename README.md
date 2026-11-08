@@ -4,7 +4,7 @@ Real-time voice changer for Windows, written in Rust. It changes your microphone
 games and streams. It also has a sound board, a music player and offline text to speech that play into
 the same microphone.
 
-![Voices](shots/voice.png)
+![Voices](shots/voice.webp)
 
 ## Features
 
@@ -27,7 +27,7 @@ the same microphone.
 
 | Sound board | Music | Settings |
 |---|---|---|
-| ![](shots/sounds.png) | ![](shots/music.png) | ![](shots/settings.png) |
+| ![](shots/sounds.webp) | ![](shots/music.webp) | ![](shots/settings.webp) |
 
 ## Requirements
 
@@ -62,3 +62,7 @@ The binary is written to `target/release/voicemorph.exe`.
 The effect parameters are documented in [MECHANICS.md](MECHANICS.md). VoiceMorph is an independent project
 and is not affiliated with Clownfish Voice Changer. If that program is installed, VoiceMorph can also use
 its sound and vocoder carrier files.
+
+## License
+
+[MIT](LICENSE)
