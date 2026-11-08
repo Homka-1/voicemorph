@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "microphone hook slot",
+      "group": "microphone",
+      "value": "{d3993a3f-99c2-4402-b5ec-a92a0367664b},7 (composite endpoint effects)",
+      "source": "function 0x40dc50 + registry of the installed original"
+    },
+    {
+      "name": "microphone hook backup marker",
+      "group": "microphone",
+      "value": "!KEY",
+      "source": "registry HKLM\\SOFTWARE\\ClownfishAPO\\BackupAPOs written by function 0x40dc50"
+    },
+    {
+      "name": "enhancements switch checked",
+      "group": "microphone",
+      "value": "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},5",
+      "source": "function 0x40dc50"
+    },
+    {
+      "name": "replace my real microphone",
+      "group": "microphone",
+      "value": "removed (person's request); cleanup button left",
+      "estimated": true
+    },
+    {
+      "name": "tray icon",
+      "group": "window",
+      "value": true,
+      "source": "import Shell_NotifyIconW in the original exe"
+    },
+    {
+      "name": "close hides to tray",
+      "group": "window",
+      "value": true,
+      "estimated": true
+    },
+    {
+      "name": "background update period",
+      "group": "window",
+      "value": 15,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "music speed range",
+      "group": "music",
+      "value": "0.5-2.0x",
+      "estimated": true
+    },
+    {
+      "name": "music cross-fade max",
+      "group": "music",
+      "value": 8,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "music bass/treble range",
+      "group": "music",
+      "value": 12,
+      "unit": "dB",
+      "estimated": true
+    },
+    {
+      "name": "previous restarts song after",
+      "group": "music",
+      "value": 3,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "ducking mic threshold",
+      "group": "music",
+      "value": 0.03,
+      "estimated": true
+    },
+    {
+      "name": "ducking default level",
+      "group": "music",
+      "value": 0.3,
+      "estimated": true
+    },
+    {
+      "name": "ducking glide",
+      "group": "music",
+      "value": 80,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "ducking hold",
+      "group": "music",
+      "value": 400,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "music loop / shuffle / volume / apply effects",
+      "group": "music",
+      "value": "kept",
+      "source": "settings MUSIC_LOOP, MUSIC_SHUFFLE, MUSIC_VOLUME, APPLY_MUSIC_EFFECTS in sub_44f850"
+    },
+    {
+      "name": "sound hotkey slots",
+      "group": "sound board",
+      "value": "modifier + 1..9, 0",
+      "estimated": true
+    },
+    {
+      "name": "per-sound volume range",
+      "group": "sound board",
+      "value": "0-200%",
+      "estimated": true
+    },
+    {
+      "name": "per-sound speed range",
+      "group": "sound board",
+      "value": "0.5-2.0x",
+      "estimated": true
+    },
+    {
+      "name": "sound stop ramp",
+      "group": "sound board",
+      "value": 8,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "robot ring frequency",
+      "group": "voice effects",
+      "value": 25,
+      "unit": "Hz",
+      "source": "function 0x180003fa0 (sample rate / 25 sine table)"
+    },
+    {
+      "name": "male pitch",
+      "group": "voice effects",
+      "value": -3,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "female pitch",
+      "group": "voice effects",
+      "value": 4,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "helium pitch",
+      "group": "voice effects",
+      "value": 8,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "baby pitch",
+      "group": "voice effects",
+      "value": 12,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "mutation lowest pitch",
+      "group": "voice effects",
+      "value": -4,
+      "unit": "semitones",
+      "source": "data 0x180051d5c"
+    },
+    {
+      "name": "mutation highest pitch",
+      "group": "voice effects",
+      "value": 13,
+      "unit": "semitones",
+      "source": "data 0x180051d10"
+    },
+    {
+      "name": "mutation step",
+      "group": "voice effects",
+      "value": 0.1,
+      "unit": "semitones per period",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "slow mutation step",
+      "group": "voice effects",
+      "value": 0.01,
+      "unit": "semitones per period",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "fast mutation step",
+      "group": "voice effects",
+      "value": 0.3,
+      "unit": "semitones per period",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "8-bit high pitch",
+      "group": "voice effects",
+      "value": 6,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "8-bit low pitch",
+      "group": "voice effects",
+      "value": -3,
+      "unit": "semitones",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "8-bit counter range low",
+      "group": "voice effects",
+      "value": -3,
+      "source": "data 0x180051d58"
+    },
+    {
+      "name": "8-bit counter range high",
+      "group": "voice effects",
+      "value": 4,
+      "source": "data 0x180051d00"
+    },
+    {
+      "name": "clone delay",
+      "group": "voice effects",
+      "value": 6000,
+      "unit": "samples",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "clone mix",
+      "group": "voice effects",
+      "value": 0.5,
+      "source": "data 0x180051c2c"
+    },
+    {
+      "name": "alien chunk",
+      "group": "voice effects",
+      "value": 20,
+      "unit": "periods",
+      "source": "function 0x180003fa0"
+    },
+    {
+      "name": "chain slots",
+      "group": "voice effects",
+      "value": 4,
+      "source": "function 0x180002d70"
+    },
+    {
+      "name": "custom pitch step",
+      "group": "voice effects",
+      "value": 0.05,
+      "unit": "semitones",
+      "source": "data 0x4cc498 (exe)"
+    },
+    {
+      "name": "custom pitch default",
+      "group": "voice effects",
+      "value": 4.5,
+      "unit": "semitones",
+      "source": "dialog text 'Pitch ( 4.50 )' (exe resources)"
+    },
+    {
+      "name": "custom pitch range",
+      "group": "voice effects",
+      "value": 12,
+      "unit": "\u00b1 semitones",
+      "estimated": true
+    },
+    {
+      "name": "pitch window",
+      "group": "voice effects",
+      "value": 40,
+      "unit": "ms",
+      "source": "function 0x180003fa0 (sequence 40 ms)"
+    },
+    {
+      "name": "update period",
+      "group": "timing",
+      "value": 10,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "cave echo delay",
+      "group": "rooms",
+      "value": 62.5,
+      "unit": "ms",
+      "source": "function 0x18002d000 + 0x180003fa0"
+    },
+    {
+      "name": "cave echo gain",
+      "group": "rooms",
+      "value": 0.5,
+      "source": "data 0x180051c2c"
+    },
+    {
+      "name": "city hall echo delay",
+      "group": "rooms",
+      "value": 250,
+      "unit": "ms",
+      "source": "function 0x180003fa0"
+    },
+    {
+      "name": "city hall echo gain",
+      "group": "rooms",
+      "value": 0.25,
+      "source": "data 0x180051c20"
+    },
+    {
+      "name": "chorus delay",
+      "group": "rooms",
+      "value": 400,
+      "unit": "samples",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "ghost reverse length",
+      "group": "rooms",
+      "value": 500,
+      "unit": "ms",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "ghost gain",
+      "group": "rooms",
+      "value": 0.5,
+      "source": "data 0x180051c2c"
+    },
+    {
+      "name": "bass shelf",
+      "group": "tone",
+      "value": 250,
+      "unit": "Hz",
+      "source": "function 0x180003fa0"
+    },
+    {
+      "name": "treble shelf",
+      "group": "tone",
+      "value": 4000,
+      "unit": "Hz",
+      "source": "function 0x180003fa0"
+    },
+    {
+      "name": "shelf slope",
+      "group": "tone",
+      "value": 0.4,
+      "source": "function 0x180003fa0"
+    },
+    {
+      "name": "bass/treble range",
+      "group": "tone",
+      "value": 30,
+      "unit": "\u00b1 dB",
+      "source": "function 0x180003720"
+    },
+    {
+      "name": "bass/treble step",
+      "group": "tone",
+      "value": 0.5,
+      "unit": "dB",
+      "source": "function 0x180002d70"
+    },
+    {
+      "name": "silence threshold scale",
+      "group": "clean up",
+      "value": 100,
+      "source": "function 0x180002d70"
+    },
+    {
+      "name": "silence hold",
+      "group": "clean up",
+      "value": 10,
+      "unit": "periods",
+      "source": "function 0x18002d000"
+    },
+    {
+      "name": "output boost per step",
+      "group": "levels",
+      "value": 0.05,
+      "source": "function 0x180002d70"
+    },
+    {
+      "name": "output boost max step",
+      "group": "levels",
+      "value": 100,
+      "source": "function 0x180002d70"
+    },
+    {
+      "name": "noise removal method",
+      "group": "clean up",
+      "value": "spectral (original: neural, 480-sample frames)",
+      "estimated": true
+    },
+    {
+      "name": "hotkey on/off",
+      "group": "controls",
+      "value": "modifier + F4",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "hotkey previous voice",
+      "group": "controls",
+      "value": "modifier + F8",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "hotkey next voice",
+      "group": "controls",
+      "value": "modifier + F9",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "hotkey stop sounds",
+      "group": "controls",
+      "value": "modifier + F10",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "hotkey music next",
+      "group": "controls",
+      "value": "modifier + F11",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "hotkey assigned sound",
+      "group": "controls",
+      "value": "modifier + F12",
+      "source": "text 0x4c6f20"
+    },
+    {
+      "name": "default hotkey modifiers",
+      "group": "controls",
+      "value": "Ctrl + Shift",
+      "estimated": true
+    },
+    {
+      "name": "hotkeys polled",
+      "group": "controls",
+      "value": true,
+      "source": "function 0x44e610 (GetAsyncKeyState)"
+    },
+    {
+      "name": "app sound queue limit",
+      "group": "app sound",
+      "value": 120,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "app sound start buffer",
+      "group": "app sound",
+      "value": 20,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "app sound volume range",
+      "group": "app sound",
+      "value": "0-200 %",
+      "estimated": true
+    },
+    {
+      "name": "app sound retry interval",
+      "group": "app sound",
+      "value": 3,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "app sound in original",
+      "group": "app sound",
+      "value": false,
+      "source": "byte search ev_e8ee4676 (no Loopback text)"
+    }
+  ]
+}
